@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3601FE36292200BF0075BE5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3601FE35292200BF0075BE5C /* AppDelegate.swift */; };
+		3601FE38292200BF0075BE5C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3601FE37292200BF0075BE5C /* SceneDelegate.swift */; };
+		3601FE3A292200BF0075BE5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3601FE39292200BF0075BE5C /* ViewController.swift */; };
+		3601FE3D292200BF0075BE5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3601FE3B292200BF0075BE5C /* Main.storyboard */; };
+		3601FE40292200BF0075BE5C /* NaukriApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3601FE3E292200BF0075BE5C /* NaukriApp.xcdatamodeld */; };
+		3601FE42292200C10075BE5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3601FE41292200C10075BE5C /* Assets.xcassets */; };
+		3601FE45292200C10075BE5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3601FE43292200C10075BE5C /* LaunchScreen.storyboard */; };
+		3601FE50292200C10075BE5C /* NaukriAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3601FE4F292200C10075BE5C /* NaukriAppTests.swift */; };
+		3601FE5A292200C10075BE5C /* NaukriAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3601FE59292200C10075BE5C /* NaukriAppUITests.swift */; };
+		3601FE5C292200C10075BE5C /* NaukriAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3601FE5B292200C10075BE5C /* NaukriAppUITestsLaunchTests.swift */; };
+		3601FE69292201090075BE5C /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3601FE68292201090075BE5C /* RegisterScreen.swift */; };
+		368A012D2924BB1A004096A4 /* ConstraintsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368A012C2924BB1A004096A4 /* ConstraintsViewController.swift */; };
+		36B6A821292543BA0093022F /* TempVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B6A820292543BA0093022F /* TempVC.swift */; };
+		36B6A823292544090093022F /* TempGalleryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B6A822292544090093022F /* TempGalleryVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3601FE4C292200C10075BE5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3601FE2A292200BF0075BE5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3601FE31292200BF0075BE5C;
+			remoteInfo = NaukriApp;
+		};
+		3601FE56292200C10075BE5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3601FE2A292200BF0075BE5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3601FE31292200BF0075BE5C;
+			remoteInfo = NaukriApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3601FE32292200BF0075BE5C /* NaukriApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaukriApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3601FE35292200BF0075BE5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3601FE37292200BF0075BE5C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3601FE39292200BF0075BE5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3601FE3C292200BF0075BE5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3601FE3F292200BF0075BE5C /* NaukriApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NaukriApp.xcdatamodel; sourceTree = "<group>"; };
+		3601FE41292200C10075BE5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3601FE44292200C10075BE5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3601FE46292200C10075BE5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3601FE4B292200C10075BE5C /* NaukriAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaukriAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3601FE4F292200C10075BE5C /* NaukriAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaukriAppTests.swift; sourceTree = "<group>"; };
+		3601FE55292200C10075BE5C /* NaukriAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaukriAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3601FE59292200C10075BE5C /* NaukriAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaukriAppUITests.swift; sourceTree = "<group>"; };
+		3601FE5B292200C10075BE5C /* NaukriAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaukriAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3601FE68292201090075BE5C /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
+		368A012C2924BB1A004096A4 /* ConstraintsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintsViewController.swift; sourceTree = "<group>"; };
+		36B6A820292543BA0093022F /* TempVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempVC.swift; sourceTree = "<group>"; };
+		36B6A822292544090093022F /* TempGalleryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempGalleryVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3601FE2F292200BF0075BE5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3601FE48292200C10075BE5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3601FE52292200C10075BE5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3601FE29292200BF0075BE5C = {
+			isa = PBXGroup;
+			children = (
+				3601FE34292200BF0075BE5C /* NaukriApp */,
+				3601FE4E292200C10075BE5C /* NaukriAppTests */,
+				3601FE58292200C10075BE5C /* NaukriAppUITests */,
+				3601FE33292200BF0075BE5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3601FE33292200BF0075BE5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3601FE32292200BF0075BE5C /* NaukriApp.app */,
+				3601FE4B292200C10075BE5C /* NaukriAppTests.xctest */,
+				3601FE55292200C10075BE5C /* NaukriAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3601FE34292200BF0075BE5C /* NaukriApp */ = {
+			isa = PBXGroup;
+			children = (
+				3601FE35292200BF0075BE5C /* AppDelegate.swift */,
+				3601FE37292200BF0075BE5C /* SceneDelegate.swift */,
+				368A01262924BA56004096A4 /* Controller */,
+				368A01292924BA96004096A4 /* Model */,
+				368A012B2924BAE6004096A4 /* ViewModel */,
+				3601FE3B292200BF0075BE5C /* Main.storyboard */,
+				36B6A820292543BA0093022F /* TempVC.swift */,
+				36B6A822292544090093022F /* TempGalleryVC.swift */,
+				3601FE41292200C10075BE5C /* Assets.xcassets */,
+				3601FE43292200C10075BE5C /* LaunchScreen.storyboard */,
+				3601FE46292200C10075BE5C /* Info.plist */,
+				3601FE3E292200BF0075BE5C /* NaukriApp.xcdatamodeld */,
+			);
+			path = NaukriApp;
+			sourceTree = "<group>";
+		};
+		3601FE4E292200C10075BE5C /* NaukriAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3601FE4F292200C10075BE5C /* NaukriAppTests.swift */,
+			);
+			path = NaukriAppTests;
+			sourceTree = "<group>";
+		};
+		3601FE58292200C10075BE5C /* NaukriAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3601FE59292200C10075BE5C /* NaukriAppUITests.swift */,
+				3601FE5B292200C10075BE5C /* NaukriAppUITestsLaunchTests.swift */,
+			);
+			path = NaukriAppUITests;
+			sourceTree = "<group>";
+		};
+		368A01262924BA56004096A4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3601FE39292200BF0075BE5C /* ViewController.swift */,
+				3601FE68292201090075BE5C /* RegisterScreen.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		368A01292924BA96004096A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		368A012B2924BAE6004096A4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				368A012C2924BB1A004096A4 /* ConstraintsViewController.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3601FE31292200BF0075BE5C /* NaukriApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3601FE5F292200C10075BE5C /* Build configuration list for PBXNativeTarget "NaukriApp" */;
+			buildPhases = (
+				3601FE2E292200BF0075BE5C /* Sources */,
+				3601FE2F292200BF0075BE5C /* Frameworks */,
+				3601FE30292200BF0075BE5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NaukriApp;
+			productName = NaukriApp;
+			productReference = 3601FE32292200BF0075BE5C /* NaukriApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3601FE4A292200C10075BE5C /* NaukriAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3601FE62292200C10075BE5C /* Build configuration list for PBXNativeTarget "NaukriAppTests" */;
+			buildPhases = (
+				3601FE47292200C10075BE5C /* Sources */,
+				3601FE48292200C10075BE5C /* Frameworks */,
+				3601FE49292200C10075BE5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3601FE4D292200C10075BE5C /* PBXTargetDependency */,
+			);
+			name = NaukriAppTests;
+			productName = NaukriAppTests;
+			productReference = 3601FE4B292200C10075BE5C /* NaukriAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3601FE54292200C10075BE5C /* NaukriAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3601FE65292200C10075BE5C /* Build configuration list for PBXNativeTarget "NaukriAppUITests" */;
+			buildPhases = (
+				3601FE51292200C10075BE5C /* Sources */,
+				3601FE52292200C10075BE5C /* Frameworks */,
+				3601FE53292200C10075BE5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3601FE57292200C10075BE5C /* PBXTargetDependency */,
+			);
+			name = NaukriAppUITests;
+			productName = NaukriAppUITests;
+			productReference = 3601FE55292200C10075BE5C /* NaukriAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3601FE2A292200BF0075BE5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3601FE31292200BF0075BE5C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					3601FE4A292200C10075BE5C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3601FE31292200BF0075BE5C;
+					};
+					3601FE54292200C10075BE5C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3601FE31292200BF0075BE5C;
+					};
+				};
+			};
+			buildConfigurationList = 3601FE2D292200BF0075BE5C /* Build configuration list for PBXProject "NaukriApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3601FE29292200BF0075BE5C;
+			productRefGroup = 3601FE33292200BF0075BE5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3601FE31292200BF0075BE5C /* NaukriApp */,
+				3601FE4A292200C10075BE5C /* NaukriAppTests */,
+				3601FE54292200C10075BE5C /* NaukriAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3601FE30292200BF0075BE5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3601FE45292200C10075BE5C /* LaunchScreen.storyboard in Resources */,
+				3601FE42292200C10075BE5C /* Assets.xcassets in Resources */,
+				3601FE3D292200BF0075BE5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3601FE49292200C10075BE5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3601FE53292200C10075BE5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3601FE2E292200BF0075BE5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3601FE69292201090075BE5C /* RegisterScreen.swift in Sources */,
+				368A012D2924BB1A004096A4 /* ConstraintsViewController.swift in Sources */,
+				3601FE3A292200BF0075BE5C /* ViewController.swift in Sources */,
+				3601FE40292200BF0075BE5C /* NaukriApp.xcdatamodeld in Sources */,
+				3601FE36292200BF0075BE5C /* AppDelegate.swift in Sources */,
+				36B6A823292544090093022F /* TempGalleryVC.swift in Sources */,
+				3601FE38292200BF0075BE5C /* SceneDelegate.swift in Sources */,
+				36B6A821292543BA0093022F /* TempVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3601FE47292200C10075BE5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3601FE50292200C10075BE5C /* NaukriAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3601FE51292200C10075BE5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3601FE5C292200C10075BE5C /* NaukriAppUITestsLaunchTests.swift in Sources */,
+				3601FE5A292200C10075BE5C /* NaukriAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3601FE4D292200C10075BE5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3601FE31292200BF0075BE5C /* NaukriApp */;
+			targetProxy = 3601FE4C292200C10075BE5C /* PBXContainerItemProxy */;
+		};
+		3601FE57292200C10075BE5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3601FE31292200BF0075BE5C /* NaukriApp */;
+			targetProxy = 3601FE56292200C10075BE5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3601FE3B292200BF0075BE5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3601FE3C292200BF0075BE5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3601FE43292200C10075BE5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3601FE44292200C10075BE5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3601FE5D292200C10075BE5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3601FE5E292200C10075BE5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3601FE60292200C10075BE5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NaukriApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.capgemini.NaukriApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3601FE61292200C10075BE5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NaukriApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.capgemini.NaukriApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3601FE63292200C10075BE5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.capgemini.NaukriAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaukriApp.app/NaukriApp";
+			};
+			name = Debug;
+		};
+		3601FE64292200C10075BE5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.capgemini.NaukriAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaukriApp.app/NaukriApp";
+			};
+			name = Release;
+		};
+		3601FE66292200C10075BE5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.capgemini.NaukriAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NaukriApp;
+			};
+			name = Debug;
+		};
+		3601FE67292200C10075BE5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.capgemini.NaukriAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NaukriApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3601FE2D292200BF0075BE5C /* Build configuration list for PBXProject "NaukriApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3601FE5D292200C10075BE5C /* Debug */,
+				3601FE5E292200C10075BE5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3601FE5F292200C10075BE5C /* Build configuration list for PBXNativeTarget "NaukriApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3601FE60292200C10075BE5C /* Debug */,
+				3601FE61292200C10075BE5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3601FE62292200C10075BE5C /* Build configuration list for PBXNativeTarget "NaukriAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3601FE63292200C10075BE5C /* Debug */,
+				3601FE64292200C10075BE5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3601FE65292200C10075BE5C /* Build configuration list for PBXNativeTarget "NaukriAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3601FE66292200C10075BE5C /* Debug */,
+				3601FE67292200C10075BE5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3601FE3E292200BF0075BE5C /* NaukriApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3601FE3F292200BF0075BE5C /* NaukriApp.xcdatamodel */,
+			);
+			currentVersion = 3601FE3F292200BF0075BE5C /* NaukriApp.xcdatamodel */;
+			path = NaukriApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3601FE2A292200BF0075BE5C /* Project object */;
+}
