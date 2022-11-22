@@ -30,6 +30,7 @@ class RegisterScreen: UIViewController, UITextFieldDelegate {
     @IBOutlet var mobileNumTextField: UITextField!
     @IBOutlet var optionalTextField: UITextField!
     @IBOutlet var docTextField: UITextField!
+    @IBOutlet var showTextField: UITextField!
     //Views
     @IBOutlet var nameView: UIView!
     @IBOutlet var emailView: UIView!
@@ -59,11 +60,16 @@ class RegisterScreen: UIViewController, UITextFieldDelegate {
         registerButton.layer.cornerRadius = radiusValue
     }
     
-    
     @IBAction func showButtonAction(_ sender: Any) {
-        passwordTextField.isSecureTextEntry = false
+        (sender as! UIButton).isSelected = !(sender as! UIButton).isSelected
+        if (sender as! UIButton).isSelected {
+            self.passwordTextField.isSecureTextEntry = false
+            showTextField.text = "Hide"
+        } else {
+            self.passwordTextField.isSecureTextEntry = true
+            showTextField.text = "Show"
+        }
     }
-    
     func textFieldColourChange(_ textField: UITextField) {
         nameView.backgroundColor = .blue
         nameLabel.textColor = . blue
